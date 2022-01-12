@@ -1,0 +1,57 @@
+.nav{
+  block-size: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  font: var(--logo);
+}
+.nav-list{
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  display: none;
+}
+.nav-enlace{
+  text-decoration: none;
+  font: var(--button);
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.500);
+}
+.nav-enlace:hover{
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.742);
+}
+.nav-enlace.is-active{
+  color: rgb(0, 0, 0);
+}
+.nav-curriculum{
+  color: var(--black);
+  background-color: var(--primary);
+  text-decoration: none;
+  font: var(--button);
+  padding: 0.8125rem 1.5rem;
+  border-radius: 5.625rem;
+  border: 2px solid var(--black);
+  text-transform: uppercase;
+  display: inline-block;
+  transition: transform .1s ease-in-out;
+  box-shadow: var(--box-shadow);
+}
+.nav-curriculum:active{
+  transform: scale(.9);
+}
+.nav-curriculum::before{
+  content: 'curriculum';
+}
+@media screen and (min-width: 768px){
+  .nav-list{
+    display: flex;
+  }
+  .nav-curriculum::before{
+    content: 'descargar curriculum';
+  }
+}

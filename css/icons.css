@@ -1,0 +1,23 @@
+.icon{
+  display: inline-block;
+  block-size: 2.75rem;
+  inline-size: 2.75rem;
+  background-color: var(--primary);
+  border: 2px solid var(--black);
+  background-position: center;
+  background-repeat: no-repeat;
+  line-height: initial;
+  border-radius: .25rem;
+}
+.icon-phone{
+  background-image: url('../assets/icons/icon-phone.svg');
+}
+.icon-email{
+  background-image: url('../assets/icons/icon-important_mail.svg');
+}
+.icon-instagram{
+  background-image: url('../assets/icons/icon-instagram.svg');
+}
+.icon-twitter{
+  background-image: url('../assets/icons/icon-twitter_squared.svg');
+}

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Poppins:wght@900&display=swap');
 @import './container.css';
-@import './nav.css';
 @import './logo.css';
+@import './icons.css';
+@import './nav.css';
+@import './header.css';
 @import './footer.css';
 :root { 
   --black: #0f0a0a; 

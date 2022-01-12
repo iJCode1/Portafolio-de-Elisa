@@ -1,0 +1,43 @@
+.contact{
+  max-inline-size: 33.75rem;
+  inline-size: 100%;
+  margin: 0 auto;
+  padding-block-start: 2.5rem;
+  margin-block-end: 5rem;
+}
+.contact-title{
+  margin: 0;
+  margin-block-end: 1rem;
+}
+.contact-paragraph{
+  margin: 0;
+  margin-block-end: 1rem;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.contact-form label{
+  padding: 0 1rem;
+}
+.contact-form .form-name,
+.contact-form .form-email{
+  font: var(--body1);
+  padding: .75rem 1rem;
+  margin-block-end: .5rem;
+}
+.contact-form textarea{
+  resize: none;
+  block-size: 8.375rem;
+  padding: .75rem 1rem;
+  font: var(--body1);
+}
+@media screen and (min-width: 768px){
+  .contact-title{
+    inline-size: 100%;
+  }
+  .contact-paragraph{
+    margin-block-end: 1.5rem;
+  }
+}

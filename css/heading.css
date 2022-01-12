@@ -1,0 +1,12 @@
+.heading{
+  background-color: var(--black);
+  color: var(--primary);
+  font: var(--headline4);
+  box-shadow: -4px 4px 0px #FFFFFF;
+  text-align: center;
+  inline-size: fit-content;
+  padding: .25rem .5rem;
+}
+.heading.is-big{
+  inline-size: 100%;
+}

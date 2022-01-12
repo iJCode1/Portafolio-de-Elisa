@@ -3,3 +3,6 @@
   text-transform: uppercase;
   font: var(--logo);
 }
+.logo:visited{
+  color: var(--black);
+}

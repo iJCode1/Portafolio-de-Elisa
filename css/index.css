@@ -13,7 +13,6 @@
   --button: 700 0.875rem/1.4157500267028809rem Oxygen; 
   --caption: 400 0.75rem/1.2135000228881836rem Oxygen; 
 }
-
 body {
   color: var(--white);
   background-color: var(--primary);

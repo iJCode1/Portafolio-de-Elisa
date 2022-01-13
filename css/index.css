@@ -4,6 +4,7 @@
 @import './icons.css';
 @import './heading.css';
 @import './cta.css';
+@import './project.css';
 @import './nav.css';
 @import './header.css';
 @import './contact.css';
@@ -11,7 +12,7 @@
 :root { 
   --black: #0f0a0a; 
   --primary: #42e2b8; 
-  --primary-hover: #7fe8cc; 
+  --primary-hover: #30cfa5; 
   --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
   --headline1: 700 5.9375rem/9.6068754196167rem Oxygen; 
   --headline2: 700 3.6875rem/5.96637487411499rem Oxygen; 

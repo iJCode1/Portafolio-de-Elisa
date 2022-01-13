@@ -2,7 +2,11 @@
   text-decoration: none;
   text-transform: uppercase;
   font: var(--logo);
+  transition: transform .1s ease-in-out;
 }
 .logo:visited{
   color: var(--black);
+}
+.logo:active{
+  transform: scale(.9);
 }

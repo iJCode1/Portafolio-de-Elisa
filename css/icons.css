@@ -8,6 +8,14 @@
   background-repeat: no-repeat;
   line-height: initial;
   border-radius: .25rem;
+  transition: transform .1s ease-in-out;
+  cursor: pointer;
+}
+.icon:hover{
+  background-color: var(--primary-hover);
+}
+.icon:active{
+  transform: scale(.9);
 }
 .icon-phone{
   background-image: url('../assets/icons/icon-phone.svg');

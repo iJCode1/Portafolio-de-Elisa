@@ -6,6 +6,7 @@
   text-align: center;
   inline-size: fit-content;
   padding: .25rem .5rem;
+  text-transform: uppercase;
 }
 .heading.is-big{
   inline-size: 100%;

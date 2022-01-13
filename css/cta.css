@@ -18,3 +18,21 @@
 .cta:active{
   transform: scale(.9);
 }
+.cta.is-secondary{
+  background-color: transparent;
+}
+.cta.is-secondary::before{
+  content: '';
+  display: inline-block;
+  background-image: url('../assets/icons/icon-github.svg');
+  background-position: left;
+  background-size: 1.4375rem;
+  inline-size: 1.4375rem;
+  block-size: 1.4375rem;
+  vertical-align: middle;
+  transform: translateY(-2px);
+  margin-inline-end: .5rem;
+}
+.cta.is-secondary:hover{
+  background-color: #d0e3dd30;
+}

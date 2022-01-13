@@ -14,6 +14,7 @@
 :root { 
   --black: #0f0a0a; 
   --primary: #42e2b8; 
+  --gray: #858C94;
   --primary-hover: #30cfa5; 
   --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
   --headline1: 700 5.9375rem/9.6068754196167rem Oxygen; 

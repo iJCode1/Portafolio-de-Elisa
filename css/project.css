@@ -37,6 +37,10 @@
   block-size: 100%;
   vertical-align: middle;
 }
+.project:nth-of-type(1) .project-image{
+  max-inline-size: 31.25rem;
+  inline-size: 100%;
+}
 .project-buttons{
   display: flex;
   flex-direction: column;

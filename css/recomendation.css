@@ -1,0 +1,40 @@
+.recomendation{
+  background-color: rgba(255, 255, 255, .25);
+  backdrop-filter: blur(2.5rem);
+  border-radius: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: -8px -8px 4px -5px rgba(255, 255, 255, 0.50)
+}
+.recomendation-paragraph{
+  margin: 0;
+  margin-block-end: 1.5rem;
+}
+.recomendation-author{
+  font: var(--caption);
+  color: var(--black);
+  opacity: .5;
+  margin: 0;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px){
+  .recomendation{
+    padding: 5rem;
+  }
+  .recomendation-img img{
+    block-size: 5rem;
+    inline-size: 5rem;
+  }
+  .recomendation-text{
+    text-align: center;
+  }
+  .recomendation-paragraph{
+    font: var(--headline4);
+  }
+  .recomendation-author{
+    font: var(--headline5);
+  }
+}

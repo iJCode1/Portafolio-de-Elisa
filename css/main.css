@@ -1,0 +1,41 @@
+.main-text{
+  text-align: center;
+  font: var(--headline5);
+  padding: 2.5rem 0;
+  margin-block-end: 2.5rem;
+}
+.main-details{
+  font-weight: 400;
+}
+.main-title{
+  font: var(--headline5);
+}
+.main-icon{
+  display: inline-block;
+  background-image: url('../assets/icons/icons-down.svg');
+  inline-size: 5rem;
+  block-size: 5rem;
+  background-size: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  transition: transform .1s ease-in-out;
+}
+.main-icon:active{
+  transform: scale(.9);
+}
+@media screen and (min-width: 768px){
+  .main-details{
+    font: var(--headline4);
+    font-weight: 300;
+  }
+  .main-text{
+    padding: 7.5rem 0;
+    margin-block-end: 0;
+  }
+}
+@media screen and (min-width: 1024px){
+  .main-text{
+    padding: 12.5rem 0;
+  }
+}

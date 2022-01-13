@@ -7,7 +7,12 @@
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
-  box-shadow: -8px -8px 4px -5px rgba(255, 255, 255, 0.50)
+  box-shadow: -8px -8px 4px -5px rgba(255, 255, 255, 0.50);
+  margin-block-start: 2.5rem;
+  margin-block-end: 5rem;
+}
+.recomendation-img img{
+  vertical-align: middle;
 }
 .recomendation-paragraph{
   margin: 0;
@@ -20,9 +25,10 @@
   margin: 0;
   text-transform: uppercase;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
   .recomendation{
     padding: 5rem;
+    margin-block-start: 5rem;
   }
   .recomendation-img img{
     block-size: 5rem;

@@ -30,6 +30,10 @@
 .header-paragraph{
   margin-block-start: 0;
 }
+.header-icons{
+  display: flex;
+  gap: 1rem;
+}
 @media screen and (min-width: 768px){
   .header{
     /* padding-block-start: 2.5rem; */
